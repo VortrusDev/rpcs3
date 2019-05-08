@@ -69,7 +69,7 @@ int PadHandlerBase::FindKeyCodeByString(std::unordered_map<u32, std::string> map
 
 	if (fallback)
 	{
-		LOG_ERROR(HLE, "long FindKeyCodeByString fohr [name = %s] returned with 0", name);
+		LOG_ERROR(HLE, "long FindKeyCodeByString for [name = %s] returned with 0", name);
 		return 0;
 	}
 
@@ -87,7 +87,7 @@ long PadHandlerBase::FindKeyCodeByString(std::unordered_map<u64, std::string> ma
 
 	if (fallback)
 	{
-		LOG_ERROR(HLE, "long FindKeyCodeByString fohr [name = %s] returned with 0", name);
+		LOG_ERROR(HLE, "long FindKeyCodeByString for [name = %s] returned with 0", name);
 		return 0;
 	}
 
